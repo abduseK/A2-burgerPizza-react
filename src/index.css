@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 
-
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -52,6 +48,10 @@ img {
     text-transform: uppercase;
 }
 
+.navbar ul li a:hover{
+  color: #6ECE4C;
+}
+
 .navbar ul li::after {
     content: '';
     height: 3px;
@@ -65,6 +65,7 @@ img {
 
 .navbar ul li:hover::after {
     width: 100%;
+    color: #6ECE4C;
 
 }
 
